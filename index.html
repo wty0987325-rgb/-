@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pixel Racing</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- MENU -->
+<div id="menu">
+    <h1>PIXEL RACING</h1>
+    <button id="startBtn">START</button>
+</div>
+
+<!-- COUNTDOWN -->
+<div id="countdown">3</div>
+
+<!-- GAME -->
+<div id="game">
+
+    <div id="sky"></div>
+    <div id="road"></div>
+
+    <div id="playerCar"></div>
+
+    <div id="obstacles"></div>
+
+    <!-- UI -->
+    <div id="ui">
+        <div id="lives">❤️❤️❤️</div>
+        <div id="progress"><div id="progressFill"></div></div>
+    </div>
+
+    <!-- CONTROLS -->
+    <div id="controls">
+        <button id="leftBtn">◀</button>
+        <button id="rightBtn">▶</button>
+    </div>
+
+</div>
+
+<!-- END -->
+<div id="endScreen">
+    <h1 id="endText"></h1>
+    <button id="restartBtn">RESTART</button>
+</div>
+
+<script src="game.js"></script>
+
+</body>
+</html>
